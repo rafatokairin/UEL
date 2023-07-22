@@ -81,18 +81,18 @@ void reiniciar(Lista *p)
     p->inicio = NULL;
 }
 
-void inverter(Lista *p, No **ant)
+void inverter(Lista *p)
 {
-    *ant = NULL;
+    No *ant = NULL;
     No *prox, *atual = p->inicio;
     while (atual != NULL)
     {
         prox = atual->prox;
-        atual->prox = *ant;
-        *ant = atual;
+        atual->prox = ant;
+        ant = atual;
         atual = prox;
     }
-    p->inicio = *ant;
+    p->inicio = ant;
 }
 
 void menu(Lista *p)
@@ -136,7 +136,7 @@ void menu(Lista *p)
             reiniciar(p);
             break;
         case 7:
-            inverter(p, &ant);
+            inverter(p);
             imprimir(p);
             printf("\nFinalizando...\n");
             break;
