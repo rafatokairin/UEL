@@ -2,7 +2,7 @@
 #define VIDA_INCLUDED
 #define TAM 30
 
-typedef int** Matriz;
+typedef int **Matriz;
 
 int vizinhos(Matriz, int, int);
 
