@@ -24,7 +24,7 @@ bool remover(Lista *, int);
 
 void reiniciar(Lista *);
 
-void inverter(Lista *, No **);
+void inverter(Lista *);
 
 void menu(Lista *);
 
