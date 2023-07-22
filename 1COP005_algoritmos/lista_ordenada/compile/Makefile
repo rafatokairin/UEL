@@ -6,7 +6,7 @@ CC = gcc
 CFLAGS = -ggdb -O0 -std=c99 -fstack-protector-all -Werror=implicit-function-declaration
 LDFLAGS=-O0 -g
 
-SRCDIR = ./compile ./headers ./src
+SRCDIR = ./compile ../headers ../src
 
 SRC = $(foreach dir,$(SRCDIR),$(wildcard $(dir)/*.c))
 
