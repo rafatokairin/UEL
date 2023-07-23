@@ -1,6 +1,5 @@
 #ifndef ESPARSA_INCLUDED
 #define ESPARSA_INCLUDED
-
 #define TAM 15
 
 typedef struct no {
