@@ -8,7 +8,6 @@ int main(int argc, char **argv)
     // imprime as geracoes (VIVOS = "#"; MORTOS = ".")
     imprimir(matriz, geracao, atoi(argv[2]));
     reiniciar(matriz, geracao);
-    free(matriz);
-    free(geracao);
+    free(matriz); free(geracao);
     return 0;
 }
