@@ -94,7 +94,7 @@ Solucao *branchAndBound(Item *item, int num_item, int max_peso)
     return sol;
 }
 
-void heuristica(char *file_name, char **argv, FILE *file)
+void heuristica(char **argv, FILE *file)
 {
     Item *item;
     Solucao *sol;
