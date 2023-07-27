@@ -1,9 +1,7 @@
 #ifndef ITEM_INCLUDED
 #define ITEM_INCLUDED
-
-#include <stdio.h>
-
 #define MAX_LINHA 128
+#include <stdio.h>
 
 typedef struct {
     int peso, valor;
