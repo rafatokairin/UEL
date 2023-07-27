@@ -9,11 +9,11 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 | TESTES: | GOP | GOV | GOR | BNB |
 |-------------|-------------|-------------|-------------|-------------|
 | **SOLUÇÃO** | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
-| **TEMPO**   | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
+| **TEMPO** | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
 
 ## knapggl
 
 | TESTES: | GOP | GOV | GOR | BNB |
 |-------------|-------------|-------------|-------------|-------------|
 | **SOLUÇÃO** | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
-| **TEMPO**   | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
+| **TEMPO** | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
