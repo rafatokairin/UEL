@@ -8,8 +8,6 @@ typedef int **Matriz;
 
 int vizinhos(Matriz, int, int);
 
-int numLinhas(FILE *file);
-
 void leitura(int, char *, Matriz *, Matriz *);
 
 void imprimir(Matriz, Matriz, int);
