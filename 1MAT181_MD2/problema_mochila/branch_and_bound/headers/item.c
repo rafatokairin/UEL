@@ -34,7 +34,8 @@ Item *lerArquivo(char *file_name, int *num_item, int *max_peso)
     sscanf(lin, "%d\n", max_peso);
 
     item = (Item *)malloc(*num_item * sizeof(Item));
-    while (fgets(lin, MAX_LINHA, file)) {
+    while (fgets(lin, MAX_LINHA, file))
+    {
         sscanf(lin, "%d %d\n", &peso, &valor);
         item[i].peso = peso;
         item[i].valor = valor;
