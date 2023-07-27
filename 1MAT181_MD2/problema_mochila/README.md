@@ -2,7 +2,7 @@
 
 informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
-- o problema da mochila (em inglês, Knapsack problem) é um problema de otimização combinatória. O nome se dá devido ao modelo de uma situação em que é necessário preencher uma mochila com objetos de diferentes pesos e valores. O objetivo é que se cumpra a mochila com o maior valor possível, não ultrapassando o peso máximo.
+- o problema da mochila (em inglês, knapsack problem) é um problema de otimização combinatória. o nome se dá devido ao modelo de uma situação em que é necessário preencher uma mochila com objetos de diferentes pesos e valores. o objetivo é que se cumpra a mochila com o maior valor possível, não ultrapassando o peso máximo.
 
 - imagens ref:
 
