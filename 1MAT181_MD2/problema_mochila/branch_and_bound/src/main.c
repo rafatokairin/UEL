@@ -9,7 +9,7 @@ int main(int argc, char **argv)
     if (argc != 2)
         exit(EXIT_FAILURE);
     FILE *file = stdout;
-    heuristica(argv[1], argv, file);
+    heuristica(argv, file);
     if (file != stdout)
         fclose(file);
     exit(EXIT_SUCCESS);
