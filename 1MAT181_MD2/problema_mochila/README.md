@@ -23,3 +23,14 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 |:------------:|:---------:|:---------:|:---------:|:---------:|
 | **SOLUÇÃO**  | 2811      | 7339      | 7534      | 7534      |
 | **TEMPO(s)** | 0.000007  | 0.000007  | 0.000009  | 1.627842  |
+
+*obs: setup de testes:
+
+GTX 1050 2GB
+
+i5-3330
+
+8GB RAM DDR3
+
+111GB SSD
+  
