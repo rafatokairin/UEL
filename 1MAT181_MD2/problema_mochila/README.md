@@ -6,14 +6,14 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
 ## knapwiki
 
-|  | GOP | GOV | GOR | BNB |
+| TESTES: | GOP | GOV | GOR | BNB |
 |-------------|-------------|-------------|-------------|-------------|
-| solução     | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
-| tempo       | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
+| SOLUÇÃO     | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
+| TEMPO       | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
 
 ## knapggl
 
-|  | GOP | GOV | GOR | BNB |
+| TESTES: | GOP | GOV | GOR | BNB |
 |-------------|-------------|-------------|-------------|-------------|
-| solução     | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
-| tempo       | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
+| SOLUÇÃO     | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
+| TEMPO       | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
