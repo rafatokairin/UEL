@@ -34,21 +34,6 @@ int vizinhos(Matriz M, int i, int j)
     return conta;
 }
 
-int numLinhas(FILE *file)
-{
-    int lin = 0;
-    char c;
-    fseek(file, 0, SEEK_SET);
-    while (!feof(file))
-    {
-        c = fgetc(file);
-        if(c == '\n')
-            lin++;
-    }
-    fseek(file, 0, SEEK_SET);
-    return lin;
-}
-
 void leitura(int argc, char *file_name, Matriz *matriz, Matriz *geracao)
 {
     if (argc != 3)
