@@ -7,6 +7,7 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 *imagens ref:
 
 [1] Imagem knapwiki. Disponível em <en.wikipedia.org/wiki/Knapsack_problem>.
+
 [2] Imagem knapggl. Disponível em <developers.google.com/optimization/pack/knapsack>.
 
 ## knapwiki:
