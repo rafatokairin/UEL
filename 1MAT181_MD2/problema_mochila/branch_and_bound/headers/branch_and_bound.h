@@ -12,6 +12,6 @@ int bound(Item *, int, int, No *);
 /* Utiliza uma Fila que contém três nós e calcula o upper bound */
 Solucao *branchAndBound(Item *, int, int);
 
-void heuristica(char *, char **, FILE *);
+void heuristica(char **, FILE *);
 
 #endif
