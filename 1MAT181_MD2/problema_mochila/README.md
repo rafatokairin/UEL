@@ -11,16 +11,12 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 | GOP | GOV | GOR | BNB |
 |-------------|-------------|-------------|-------------|
 | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
-| Dado 2      | Dado 2      | Dado 2      | Dado 2      |
-| Dado 3      | Dado 3      | Dado 3      | Dado 3      |
 
 ### tempo-execução
 
 | GOP | GOV | GOR | BNB |
 |-------------|-------------|-------------|-------------|
 | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
-| Dado 2      | Dado 2      | Dado 2      | Dado 2      |
-| Dado 3      | Dado 3      | Dado 3      | Dado 3      |
 
 ## knapggl
 
@@ -29,13 +25,9 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 | GOP | GOV | GOR | BNB |
 |-------------|-------------|-------------|-------------|
 | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
-| Dado 2      | Dado 2      | Dado 2      | Dado 2      |
-| Dado 3      | Dado 3      | Dado 3      | Dado 3      |
 
 ### tempo-execução
 
 | GOP | GOV | GOR | BNB |
 |-------------|-------------|-------------|-------------|
 | Dado 1      | Dado 1      | Dado 1      | Dado 1      |
-| Dado 2      | Dado 2      | Dado 2      | Dado 2      |
-| Dado 3      | Dado 3      | Dado 3      | Dado 3      |
