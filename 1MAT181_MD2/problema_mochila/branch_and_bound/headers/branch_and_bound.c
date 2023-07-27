@@ -35,7 +35,7 @@ int bound(Item *item, int num_item, int max_peso, No *u)
     /**
      * Caso não alcance o número máximo de Nós,
      * utilizar método fracionário para calcular o melhor lucro,
-     * aumentando assim as chances de preencher completamente a mochila.
+     * aumentando as chances de preencher completamente a mochila.
      */
     if (i < num_item)
         lucro_bound = lucro_bound + (max_peso - peso) * razaoItem(item[i]);
