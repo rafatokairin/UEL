@@ -6,9 +6,9 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
 - imagens ref:
 
-  > knapwiki: "en.wikipedia.org/wiki/Knapsack_problem"
+  > knapwiki: "en.wikipedia.org/wiki/Knapsack_problem".
 
-  > knapggl: "developers.google.com/optimization/pack/knapsack"
+  > knapggl: "developers.google.com/optimization/pack/knapsack".
 
 ## knapwiki:
 
@@ -26,11 +26,5 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
 - setup de testes:
 
-  > GTX 1050 2GB
-
-  > i5-3330
-
-  > 8GB RAM DDR3
-
-  > 111GB SSD
+  > GTX 1050 2GB; i5-3330; 8GB RAM DDR3; 111GB SSD.
   
