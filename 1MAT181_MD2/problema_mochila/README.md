@@ -20,8 +20,6 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
 - BNB: branch and bound.
 
-# testes:
-
 ## knapwiki:
 
 | TESTES: | GOP | GOV | GOR | BNB |
