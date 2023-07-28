@@ -10,6 +10,18 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
   > knapggl: "developers.google.com/optimization/pack/knapsack".
 
+# heurísticas:
+
+- GOP: gulosa ordenada pelo peso.
+
+- GOV: gulosa ordenada pelo valor.
+
+- GOR: gulosa ordenada pela razão (valor / tamanho).
+
+- BNB: branch and bound.
+
+# testes:
+
 ## knapwiki:
 
 | TESTES: | GOP | GOV | GOR | BNB |
