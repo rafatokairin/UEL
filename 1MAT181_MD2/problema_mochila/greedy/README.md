@@ -1,4 +1,4 @@
-# greedy:
+# basicamente:
 
 utiliza o método guloso por ordenação (peso, valor, razao) para resolver o problema da mochila e retorna solução local.
 
