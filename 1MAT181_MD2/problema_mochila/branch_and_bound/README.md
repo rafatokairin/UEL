@@ -1,4 +1,4 @@
-# branch-and-bound:
+# basicamente:
 
 utiliza o método branch and bound para resolver o problema da mochila e retorna solução ótima.
 
