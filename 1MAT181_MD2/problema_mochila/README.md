@@ -16,7 +16,7 @@ informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
 - GOV: gulosa ordenada pelo valor.
 
-- GOR: gulosa ordenada pela razão (valor / tamanho).
+- GOR: gulosa ordenada pela razão (valor / peso).
 
 - BNB: branch and bound.
 
