@@ -12,7 +12,7 @@ phi_n = (p - 1) * (q - 1)
 # escolhe um "e" coprimo de phi de n aleatório (3 <= e <= phi_n - 1)
 e = utils.coprimo(phi_n)
 
-# calcula inverso modular: (e * d) % phi_n = 1
+# calcula inverso modular de "e": (e * d) mod(phi_n) = 1
 d = utils.inversoMod(e, phi_n)
 
 # infos
@@ -28,11 +28,11 @@ print(f"Chave privada: {d}")
 # converte senha original em vetor de códigos ASCII
 senha_cript = [ord(caracter) for caracter in senha]
 
-# criptografa: (senha ^ e) mod n = c
+# criptografa: (senha ^ e) mod(n) = c
 senha_cript = [pow(caracter, e, n) for caracter in senha_cript]
 print(f"\nSenha criptografada: {senha_cript}")
 
-# descriptografa: (c ^ d) mod n = senha
+# descriptografa: (c ^ d) mod(n) = senha
 senha_descript = [pow(caracter, d, n) for caracter in senha_cript]
 
 # desconverte códigos ASCII
