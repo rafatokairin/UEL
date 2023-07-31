@@ -28,7 +28,7 @@ void criptografa(char *senha, uint64_t *senha_cript, uint64_t e, uint64_t n)
 
 void descriptografa(uint64_t *senha_cript, uint64_t d, uint64_t n, int tamanho)
 {
-    int senha_descript[MAX_SENHA];
+    int senha_descript[tamanho];
     for (int i = 0; i < tamanho; i++)
     {
         senha_descript[i] = powMod(senha_cript[i], d, n);
