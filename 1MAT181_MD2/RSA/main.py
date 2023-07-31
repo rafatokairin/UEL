@@ -5,7 +5,7 @@ p, q = utils.geraPrimo(1000, 5000), utils.geraPrimo(1000, 5000)
 while p == q:
     q = utils.geraPrimo(1000, 5000)
 
-# calcula n e phi de n
+# calcula n e phi_n
 n = p * q
 phi_n = (p - 1) * (q - 1)
 
