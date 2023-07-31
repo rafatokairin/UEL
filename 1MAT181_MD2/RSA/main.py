@@ -20,9 +20,8 @@ senha = "RSA1977!"
 print(f"Senha original: {senha}")
 print(f"p: {p}")
 print(f"q: {q}")
-print(f"n: {n}")
-print(f"phi de n: {phi_n}")
-print(f"Chave pública: {e}")
+print(f"Totient(n): {phi_n}")
+print(f"Chave pública: (n: {n}, e: {e})")
 print(f"Chave privada: {d}")
 
 # converte senha original em vetor de códigos ASCII
