@@ -9,7 +9,7 @@ while p == q:
 n = p * q
 phi_n = (p - 1) * (q - 1)
 
-# escolhe um "e" coprimo de phi de n aleatório (3 <= e <= phi_n - 1)
+# escolhe um "e" coprimo de phi_n aleatório (3 <= e <= phi_n - 1)
 e = utils.coprimo(phi_n)
 
 # calcula inverso modular de "e": (e * d) mod(phi_n) = 1
