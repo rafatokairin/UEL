@@ -21,17 +21,17 @@ print(f"Senha original: {senha}")
 print(f"p: {p}")
 print(f"q: {q}")
 print(f"Totiente(n): {phi_n}")
-print(f"Chave pública: (n: {n}, e: {e})")
-print(f"Chave privada: {d}")
+print(f"Chave pública: [n: {n}, e: {e}]")
+print(f"Chave privada: [d: {d}]")
 
 # converte senha original em vetor de códigos ASCII
 senha_cript = [ord(caracter) for caracter in senha]
 
-# criptografa: (senha ^ e) mod(n) = c
+# criptografa: (senha ^ e) mod(n) = cript
 senha_cript = [pow(caracter, e, n) for caracter in senha_cript]
 print(f"\nSenha criptografada: {senha_cript}")
 
-# descriptografa: (c ^ d) mod(n) = senha
+# descriptografa: (cript ^ d) mod(n) = senha
 senha_descript = [pow(caracter, d, n) for caracter in senha_cript]
 
 # desconverte códigos ASCII
