@@ -20,7 +20,7 @@ senha = "RSA1977!"
 print(f"Senha original: {senha}")
 print(f"p: {p}")
 print(f"q: {q}")
-print(f"Totient(n): {phi_n}")
+print(f"Totiente(n): {phi_n}")
 print(f"Chave pública: (n: {n}, e: {e})")
 print(f"Chave privada: {d}")
 
