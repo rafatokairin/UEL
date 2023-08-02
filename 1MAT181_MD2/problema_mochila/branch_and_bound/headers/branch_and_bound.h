@@ -9,7 +9,7 @@ void *alocarNoFila(void *);
 
 int bound(Item *, int, int, No *);
 
-/* Utiliza uma Fila que contém três nós e calcula o upper bound */
+/* utiliza uma fila que contém três nós e calcula o upper bound */
 Solucao *branchAndBound(Item *, int, int);
 
 void heuristica(char **, FILE *);
