@@ -20,10 +20,10 @@ void pushFila(Fila *, void *);
 
 void popFila(Fila *);
 
-/* Retorna o elemento ini */
+/* retorna o elemento ini */
 void *proxFila(Fila *);
 
-/* Retorna 1 se Fila estiver vazia, 0 caso contrário */
+/* retorna 1 se Fila estiver vazia, 0 caso contrário */
 int verificaFila(Fila *);
 
 #endif
