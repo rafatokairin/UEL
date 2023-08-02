@@ -21,9 +21,9 @@ int bound(Item *item, int num_item, int max_peso, No *u)
     int peso = u->peso;
 
     /**
-     * Enquanto não alcançar o número máximo de Nós e não alcançar o peso máximo:
-     *     - Aumentar o peso total com o peso do Item atual
-     *     - Aumentar o lucro total com o valor do Item atual
+     * enquanto não alcançar o número máximo de nós e não alcançar o peso máximo:
+     *     - aumentar o peso total com o peso do item atual
+     *     - aumentar o lucro total com o valor do item atual
      */
     while (i < num_item && peso + item[i].peso <= max_peso)
     {
@@ -33,7 +33,7 @@ int bound(Item *item, int num_item, int max_peso, No *u)
     }
 
     /**
-     * Caso não alcance o número máximo de Nós,
+     * caso não alcance o número máximo de nós,
      * utilizar método fracionário para calcular o melhor lucro,
      * aumentando as chances de preencher completamente a mochila.
      */
@@ -55,19 +55,19 @@ Solucao *branchAndBound(Item *item, int num_item, int max_peso)
     pushFila(f, (void *)&u);
 
     quicksortRazao(item, num_item);
-    /* Existe ramo para explorar? */
+    /* existe ramo para explorar? */
     while (!verificaFila(f))
     {
         encontra_max_lucro = 0;
         u = *(No *)proxFila(f);
-        /* Deletar Nó que obtivemos */
+        /* deletar nó que obtivemos */
         popFila(f);
         v.altura = 0;
         v.altura = u.altura + 1;
         v.peso = u.peso + item[v.altura].peso;
         v.lucro = u.lucro + item[v.altura].valor;
         /**
-         * Se o peso for menor que o peso máximo e o lucro for maior que o
+         * se o peso for menor que o peso maximo e o lucro for maior que o
          * melhor lucro, atualizamos o melhor lucro conhecido.
          */
         if (v.peso <= max_peso && v.lucro > max_lucro)
@@ -75,7 +75,7 @@ Solucao *branchAndBound(Item *item, int num_item, int max_peso)
             max_lucro = v.lucro;
             encontra_max_lucro = 1;
         }
-        /* Podar arvore */
+        /* podar árvore */
         v.bound = bound(item, num_item, max_peso, &v);
         if (v.bound > max_lucro)
         {
