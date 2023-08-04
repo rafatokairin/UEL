@@ -2,7 +2,7 @@
 
 efficient ordered dynamic list that, upon program termination, inverts the pointers.
 
-*note: in this specific case, I am not accepting keys with the same value to ensure the most efficient search possible.
+*note: in this specific case, i'm not accepting keys with the same value to ensure the most efficient search possible.
 
 # 🇧🇷 basicamente:
 
