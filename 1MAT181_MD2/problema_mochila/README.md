@@ -22,14 +22,14 @@ information taken from the website "en.wikipedia.org/wiki/Knapsack_problem":
 
 ## knapwiki:
 
-| TESTES: | GOW | GOV | GOR | BNB |
+| TESTS: | GOW | GOV | GOR | BNB |
 |:------------:|:----------:|:--------:|:---------:|:---------:|
 | **SOLUTION**  | 827       | 1088      | 1183      | 1270      |
 | **TIME(s)** | 0.000003  | 0.000003  | 0.000003  | 0.000025  |
 
 ## knapggl:
 
-| TESTES: | GOW | GOV | GOR | BNB |
+| TESTS: | GOW | GOV | GOR | BNB |
 |:------------:|:---------:|:---------:|:---------:|:---------:|
 | **SOLUTION**  | 2811      | 7339      | 7534      | 7534      |
 | **TIME(s)** | 0.000007  | 0.000007  | 0.000009  | 1.627842  |
