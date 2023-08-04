@@ -38,7 +38,7 @@ information taken from the website "en.wikipedia.org/wiki/Knapsack_problem":
 
   > GTX 1050 2GB; i5-3330; 8GB RAM DDR3; 111GB SSD.
 
-# 🇧🇷 problema-mochila:
+# 🇧🇷 problema-da-mochila:
 
 informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
