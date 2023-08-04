@@ -1,4 +1,4 @@
-# basicamente:
+# 🇧🇷 basicamente:
 
 gera duas matrizes esparsas 15x15 a partir da leitura de um arquivo e implementa de forma eficiente as seguintes funções:
 
@@ -9,3 +9,15 @@ gera duas matrizes esparsas 15x15 a partir da leitura de um arquivo e implementa
 - somar matrizes.
 
 - multiplicar matrizes.
+
+# 🇺🇸 basically:
+
+generate two sparse matrices 15x15 from reading a file and efficiently implement the following functions:
+
+- write a condensed matrix and a complete matrix from the condensed one.
+
+- return the sum below the main diagonal.
+
+- sum the matrices.
+
+- multiply the matrices.
