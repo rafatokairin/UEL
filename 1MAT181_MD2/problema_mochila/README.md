@@ -1,4 +1,44 @@
-# problema-mochila:
+# 🇺🇸 knapsack-problem:
+
+information taken from the website "en.wikipedia.org/wiki/Knapsack_problem":
+
+- the knapsack problem is the following problem in combinatorial optimization. it derives its name from the problem faced by someone who is constrained by a fixed-size knapsack and must fill it with the most valuable items. the problem often arises in resource allocation where the decision-makers have to choose from a set of non-divisible projects or tasks under a fixed budget or time constraint, respectively.
+
+- images ref:
+
+  > knapwiki: "en.wikipedia.org/wiki/Knapsack_problem".
+
+  > knapggl: "developers.google.com/optimization/pack/knapsack".
+  
+# heuristics:
+
+- GOW: greedy ordered by weight.
+
+- GOV: greedy ordered by value.
+
+- GOR: greedy ordered by ratio (value / weight).
+
+- BNB: branch and bound.
+
+## knapwiki:
+
+| TESTES: | GOW | GOV | GOR | BNB |
+|:------------:|:----------:|:--------:|:---------:|:---------:|
+| **SOLUTION**  | 827       | 1088      | 1183      | 1270      |
+| **TIME(s)** | 0.000003  | 0.000003  | 0.000003  | 0.000025  |
+
+## knapggl:
+
+| TESTES: | GOW | GOV | GOR | BNB |
+|:------------:|:---------:|:---------:|:---------:|:---------:|
+| **SOLUTION**  | 2811      | 7339      | 7534      | 7534      |
+| **TIME(s)** | 0.000007  | 0.000007  | 0.000009  | 1.627842  |
+
+- test setup:
+
+  > GTX 1050 2GB; i5-3330; 8GB RAM DDR3; 111GB SSD.
+
+# 🇧🇷 problema-mochila:
 
 informações retiradas do site "pt.wikipedia.org/wiki/Problema_da_mochila":
 
