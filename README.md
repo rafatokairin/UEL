@@ -1,7 +1,5 @@
-# 🇺🇸 UEL:
+# Universidade Estadual de Londrina:
 
-my entire programming journey at universidade estadual de londrina.
+🇺🇸 my entire programming journey in the computer science college.
 
-# 🇧🇷 UEL:
-
-toda minha trajetória de programação na universidade estadual de londrina.
+🇧🇷 toda minha trajetória de programação na faculdade de ciência da computação.
