@@ -14,12 +14,14 @@ regras retiradas do site "pt.wikipedia.org/wiki/Jogo_da_vida":
 
 # 🇺🇸 game-of-life:
 
-- any dead cell with exactly three live neighbors becomes alive (birth).
+rules taken from the website "en.wikipedia.org/wiki/Conway%27s_Game_of_Life":
 
-- any live cell with fewer than two live neighbors dies due to isolation.
+- any live cell with fewer than two live neighbours dies, as if by underpopulation.
 
-- any live cell with more than three live neighbors dies due to overpopulation.
+- any live cell with two or three live neighbours lives on to the next generation.
 
-- any live cell with two or three live neighbors remains alive.
+- any live cell with more than three live neighbours dies, as if by overpopulation.
+
+- any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 *note: to execute, pass the parameters: ./main quadro.txt "number of generations"
