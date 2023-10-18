@@ -1,7 +1,7 @@
-# 🇺🇸 discrete-mathematics:
+# 🇺🇸 computer-architecture:
 
-academic projects from the discrete mathematics course.
+academic projects from the computer architecture course.
 
-# 🇧🇷 matemática-discreta:
+# 🇧🇷 arquitetura-de-computadores:
 
-projetos acadêmicos da disciplina de matemática discreta.
+projetos acadêmicos da disciplina de arquitetura-de-computadores.
