@@ -1,6 +1,6 @@
 # 🇺🇸 programming-lab:
 
-academic projects from the programming lab: course.
+academic projects from the programming lab course.
 
 # 🇧🇷 laboratório-de-programação:
 
