@@ -1,7 +1,7 @@
-# 🇺🇸 data-structures:
+# 🇺🇸 object-oriented-programming:
 
-academic projects from the data structures course.
+academic projects from the object oriented programming course.
 
-# 🇧🇷 estrutura-de-dados:
+# 🇧🇷 programação-orientada-objetos:
 
-projetos acadêmicos da disciplina de estrutura de dados.
+projetos acadêmicos da disciplina de programação orientada a objetos.
